@@ -1,0 +1,25 @@
+@font-face {
+  font-family: '{{fontName}}';
+  font-style: normal;
+  font-weight: normal;
+  src: {{{src}}};
+}
+
+{{baseSelector}} {
+  font-family: '{{fontName}}';
+  font-style: normal;
+  font-weight: normal;
+  min-height: 1em;
+  min-width: 1em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+
+/* Icons */
+{{#each codepoints}}
+
+.{{../classPrefix}}{{@key}}::before {
+  content: '\\{{this}}';
+}
+{{/each}}

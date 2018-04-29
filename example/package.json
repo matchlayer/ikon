@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "build": "ikon ./src/images/icons/*.svg"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ikon": "file:../"
+  }
+}

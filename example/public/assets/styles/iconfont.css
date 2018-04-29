@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'iconfont-regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/iconfont-regular.eot?23df5f1e82afb7df6c781dd76c24be65?#iefix") format("embedded-opentype"),
+url("/assets/fonts/iconfont-regular.woff2?23df5f1e82afb7df6c781dd76c24be65") format("woff2"),
+url("/assets/fonts/iconfont-regular.woff?23df5f1e82afb7df6c781dd76c24be65") format("woff");
+}
+
+.i {
+  font-family: 'iconfont-regular';
+  font-style: normal;
+  font-weight: normal;
+  min-height: 1em;
+  min-width: 1em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+
+/* Icons */
+
+.i--actions::before {
+  content: '\f101';
+}
+
+.i--at::before {
+  content: '\f102';
+}
+
+.i--bolt::before {
+  content: '\f103';
+}
+
+.i--eye::before {
+  content: '\f104';
+}
+
+.i--hashtag::before {
+  content: '\f105';
+}
+
+.i--info::before {
+  content: '\f106';
+}
+
+.i--love::before {
+  content: '\f107';
+}
+
+.i--mic::before {
+  content: '\f108';
+}
+
+.i--password::before {
+  content: '\f109';
+}
+
+.i--star::before {
+  content: '\f10a';
+}

@@ -1,0 +1,5 @@
+{
+  "dest": "./public/assets/fonts",
+  "cssDest": "./public/assets/styles/iconfont.css",
+  "cssFontsUrl": "/assets/fonts"
+}

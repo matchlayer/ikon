@@ -1,0 +1,25 @@
+{
+  "name": "ikon",
+  "version": "0.0.1",
+  "description": "Scripts to build webfont icons.",
+  "bin": {
+    "ikon": "./cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --quiet {,*/}*.js",
+    "test": "npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-rowupper": "~0.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "~5.0.0",
+    "meow": "~5.0.0",
+    "pify": "~3.0.0",
+    "rc": "~1.2.6",
+    "webfonts-generator": "~0.4.0"
+  }
+}
