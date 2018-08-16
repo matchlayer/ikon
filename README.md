@@ -1,4 +1,4 @@
-# IKon
+# Ikon
 
 Scripts to build webfont icons.
 
