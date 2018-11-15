@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --quiet {,*/}*.js",
+    "lint": "eslint --quiet .",
     "test": "npm run lint"
   },
   "license": "MIT",
