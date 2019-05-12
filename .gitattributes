@@ -1,3 +1,5 @@
+/package-lock.json -diff
+
 *.eot binary
 *.ttf binary
 *.woff binary
