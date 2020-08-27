@@ -2,7 +2,9 @@
   "name": "ikon",
   "version": "0.0.2",
   "description": "Scripts to build webfont icons.",
+  "repository": "https://github.com/matchlayer/ikon.git",
   "license": "MIT",
+  "author": "Matchlayer Team <developers@matchlayer.com> (https://matchlayer.com/developers)",
   "main": "index.js",
   "bin": {
     "ikon": "./cli.js"
