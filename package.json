@@ -1,6 +1,6 @@
 {
   "name": "ikon",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Scripts to build webfont icons.",
   "repository": "https://github.com/matchlayer/ikon.git",
   "license": "MIT",
