@@ -23,3 +23,22 @@
   content: '\\{{this}}';
 }
 {{/each}}
+
+
+/* Fixes */
+
+{{baseSelector}} + {{baseSelector}} {
+  position: absolute;
+}
+
+{{baseSelector}} + span {
+  margin-left: .5rem;
+}
+
+{{baseSelector}}--x {
+  opacity: .5;
+}
+
+{{baseSelector}}--x ~ {{baseSelector}} {
+  font-size: .75em;
+}
