@@ -1,6 +1,6 @@
 {
   "name": "ikon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scripts to build webfont icons.",
   "repository": "https://github.com/matchlayer/ikon.git",
   "license": "MIT",
@@ -12,7 +12,6 @@
   "scripts": {
     "lint": "eslint --quiet ./",
     "release": "standard-version",
-    "postrelease": "git push --follow-tags origin HEAD && npm publish",
     "test": "npm run lint"
   },
   "dependencies": {
