@@ -12,6 +12,7 @@
   "scripts": {
     "lint": "eslint --quiet ./",
     "release": "standard-version",
+    "postrelease": "git push --follow-tags origin HEAD && npm publish",
     "test": "npm run lint"
   },
   "dependencies": {
